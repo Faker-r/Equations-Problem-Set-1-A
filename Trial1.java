@@ -32,7 +32,9 @@ class Trial1 {
         int numTerms = 5; //Number of terms in series
         System.out.println();
         System.out.println("SUM OF AN ARITHMETIC SERIES"); //Formula is (first + last) times number of terms divided by 2 
-        System.out.println("The sum of the first " + numTerms + " terms of an arithmetic series that starts with " + first + " and increases by " + change + " is " + (first*2 + (numTerms-1)*change)*numTerms/2);
+        System.out.println("The sum of the first " + numTerms + " terms of an arithmetic series that starts with " + first);
+        //Changing lines so it isn't all in one line
+        System.out.println("and increases by " + change + " is " + (first*2 + (numTerms-1)*change)*numTerms/2);
         
         //Sum of a finite geometric series
         double start = 3; //Start value
@@ -40,7 +42,9 @@ class Trial1 {
         int terms = 3; //Num of terms
         System.out.println();
         System.out.println("SUM OF A FINITE GEOMETRIC SERIES"); //Used formula start * (1-rate^terms)/1-rate
-        System.out.println("The sum of the first " + numTerms + " terms of a finite geometric series that starts with " + start + " and increases by a rate of " + rate + " is " + start * ((1-Math.pow(rate,terms))/(1-rate)));
+        System.out.println("The sum of the first " + terms + " terms of a finite geometric series that starts with " + start );
+        //Changing lines so it isn't all in one line
+        System.out.println("and increases by a rate of " + rate + " is " + start * ((1-Math.pow(rate,terms))/(1-rate)));
         
     }
 }
