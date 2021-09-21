@@ -7,8 +7,8 @@ class Trial1 {
         double a = 1; //Coefficient for x^2
         double b = 5; //Coefficient for x 
         double c = 6; //Constant
-        double solution1 = (-b + Math.sqrt(b*b -(4*a*c)))/(2*a);
-        double solution2 = (-b - Math.sqrt(b*b -(4*a*c)))/(2*a);
+        double solution1 = (-b + Math.sqrt(b*b -(4*a*c)))/(2*a); //This is the quadratic that adds the square root
+        double solution2 = (-b - Math.sqrt(b*b -(4*a*c)))/(2*a); //This is the quadratic that subtracts the square root
         System.out.println("QUADRATIC FORMULA");
         System.out.println("The solutions for " + (int)a + "x^2 + " + (int)b + "x + " + (int)c + " are " + solution2 +" and " + solution1 + ".");
         
